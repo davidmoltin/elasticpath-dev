@@ -5,7 +5,7 @@
       "destination": "https://elasticpath-dev-composer.vercel.app/composer"
     },
     {
-      "source": "/composer/:match*",
+      "source": "/:match*",
       "destination": "https://elasticpath-dev-composer.vercel.app/composer/:match*"
     }
   ]
