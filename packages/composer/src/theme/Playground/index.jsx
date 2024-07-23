@@ -83,7 +83,6 @@ export default function Playground({ children, transformCode, ...props }) {
 
   const [client, initClient] = useDyteClient();
 
-  // TODO: Uncomment following block of code after adding mock web-core package
   useEffect(() => {
     initClient({
       roomName: 'qplrfc-uuujcj',

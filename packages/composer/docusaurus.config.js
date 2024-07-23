@@ -154,8 +154,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "elasticpath", // Usually your GitHub org/user name.
+  projectName: "composer", // Usually your repo name.
   markdown: {
     mermaid: true,
   },
@@ -167,7 +167,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebar-composer.js"),
           path: "composer",
-          routeBasePath: "/composer",
+          routeBasePath: "/",
           docLayoutComponent: "@theme/DocPage",
           editUrl: "https://github.com/elasticpath/elasticpath-dev/tree/main/",
           exclude: [
