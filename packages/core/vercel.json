@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/composer",
+      "destination": "https://elasticpath-dev-composer.vercel.app/composer"
+    },
+    {
+      "source": "/composer/:match*",
+      "destination": "https://elasticpath-dev-composer.vercel.app/composer/:match*"
+    }
+  ]
+}
