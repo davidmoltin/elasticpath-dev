@@ -7,6 +7,14 @@
     {
       "source": "/composer/:match*",
       "destination": "https://elasticpath-dev-composer.vercel.app/composer/:match*"
+    },
+    {
+      "source": "/",
+      "destination": "https://stover.io/"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://stover.io:match*"
     }
   ]
 }
