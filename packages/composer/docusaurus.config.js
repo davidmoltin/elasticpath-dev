@@ -142,7 +142,7 @@ const resourceDOCS = fs.readFileSync(
 const config = {
   title: "Elastic Path Documentation",
   tagline: "API, Commerce Manager, Guides and Documentation 🚀",
-  url: "https://elasticpath.dev",
+  url: "https://stover.io",
   baseUrl: "/",
   favicon: "/favicon.ico",
   i18n: {
@@ -167,7 +167,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebar-composer.js"),
           path: "composer",
-          routeBasePath: "/",
+          routeBasePath: "/composer",
           docLayoutComponent: "@theme/DocPage",
           editUrl: "https://github.com/elasticpath/elasticpath-dev/tree/main/",
           exclude: [
