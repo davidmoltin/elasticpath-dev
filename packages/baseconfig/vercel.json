@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {"source": "/composer/", "destination": "https://elasticpath-dev-composer.vercel.app/"},
+    {"source": "/composer/:match*", "destination": "https://elasticpath-dev-composer.vercel.app/:match*"},
+    {"source": "/", "destination": "https://openapi-documentation.vercel.app/"},
+    {"source": "/:match*", "destination": "https://openapi-documentation.vercel.app/:match*"}
+  ]
+}
