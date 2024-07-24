@@ -3,10 +3,6 @@
     {
       "source": "/composer",
       "destination": "https://elasticpath-dev-composer.vercel.app"
-    },
-    {
-      "source": "/:match*",
-      "destination": "https://elasticpath-dev-composer.vercel.app/:match*"
     }
   ]
 }
