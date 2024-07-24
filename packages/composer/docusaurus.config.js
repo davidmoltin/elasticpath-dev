@@ -163,7 +163,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebar-composer.js"),
           path: "docs/composer",
-          routeBasePath: "/",
+          routeBasePath: "/composer",
           editUrl: "https://github.com/elasticpath/elasticpath-dev/tree/main/",
           exclude: [
             "**/_*/**", // Allow for .md files prepended with underscores, like for our API
