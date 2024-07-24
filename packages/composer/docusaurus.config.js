@@ -162,9 +162,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebar-composer.js"),
-          path: "composer",
+          path: "docs/composer",
           routeBasePath: "/",
-          docLayoutComponent: "@theme/DocPage",
           editUrl: "https://github.com/elasticpath/elasticpath-dev/tree/main/",
           exclude: [
             "**/_*/**", // Allow for .md files prepended with underscores, like for our API
@@ -381,7 +380,7 @@ const config = {
         hashed: true,
         indexDocs: true,
         indexBlog: false,
-        docsRouteBasePath: ["composer"],
+        docsRouteBasePath: ["/docs/composer"],
         highlightSearchTermsOnTargetPage: false,
         searchContextByPaths: ["docs","guides","changelog","composer"],
         useAllContextsWithNoSearchContext: true,
